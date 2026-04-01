@@ -1,0 +1,35 @@
+.card {
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: 0.25s ease;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Colored side accent */
+.card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 5px;
+  border-radius: 18px 0 0 18px;
+  background: var(--primary);
+}
+
+.card h3 {
+  font-size: 14px;
+  color: var(--subtext);
+}
+
+.card p {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+}

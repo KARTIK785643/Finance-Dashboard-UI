@@ -1,0 +1,17 @@
+.insights {
+  background: linear-gradient(135deg, #4f46e5, #06b6d4);
+  color: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.insights h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.insights p {
+  font-size: 14px;
+  opacity: 0.95;
+}
